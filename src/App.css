@@ -1,0 +1,50 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background: url(./utils/images/grass.png);
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #000000;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #dd1111;    /* color of the scroll thumb */
+}
+
+.App {
+  text-align: center;
+}
+
+.App a {
+  color: black;
+  text-decoration: none;
+}
+
+.App-header {
+  background-color: #0f3f038f;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 10px;
+  background: url(./utils/images/grass.png);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.nes-ash {
+    position: relative;
+    display: inline-block;
+    width: 87px;
+    height: 18px;
+}
+
+.nes-balloon.is-dark, body {
+  font-family: 'Press Start 2P', cursive;
+}
